@@ -1,9 +1,14 @@
-import { View, Text } from 'react-native'
+import { View, Text, StyleSheet } from 'react-native'
 
-export default function Index() {
+export default function SignIn() {
   return (
-    <View>
-      <Text>Initial</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>SignIn</Text>
     </View>
   )
 }
+
+const styles = StyleSheet.create({
+  container: {},
+  title: {},
+})
