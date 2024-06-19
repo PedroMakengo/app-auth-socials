@@ -1,4 +1,5 @@
 import { View, Text, StyleSheet } from 'react-native'
+import { router } from 'expo-router'
 import { Button } from '@/components/Button'
 
 export default function SignIn() {
@@ -6,7 +7,11 @@ export default function SignIn() {
     <View style={styles.container}>
       <Text style={styles.title}>SignIn</Text>
 
-      <Button title="Entrar com Google" icon="logo-google" />
+      <Button
+        title="Entrar com Google"
+        icon="logo-google"
+        onPress={() => router.navigate('(auth)')}
+      />
     </View>
   )
 }
