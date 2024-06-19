@@ -1,9 +1,12 @@
 import { View, Text, StyleSheet } from 'react-native'
+import { Button } from '@/components/Button'
 
 export default function SignIn() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>SignIn</Text>
+
+      <Button title="Entrar com Google" icon="logo-google" />
     </View>
   )
 }
