@@ -9,6 +9,14 @@ export default function SignIn() {
 }
 
 const styles = StyleSheet.create({
-  container: {},
-  title: {},
+  container: {
+    flex: 1,
+    padding: 32,
+    justifyContent: 'center',
+    gap: 12,
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold',
+  },
 })
