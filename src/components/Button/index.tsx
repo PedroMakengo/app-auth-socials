@@ -29,7 +29,7 @@ export function Button({
       {...rest}
     >
       {isLoading ? (
-        <ActivityIndicator />
+        <ActivityIndicator color="white" />
       ) : (
         <>
           <Ionicons name={icon} style={styles.icon} />
