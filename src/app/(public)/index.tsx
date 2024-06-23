@@ -20,7 +20,6 @@ export default function SignIn() {
   const googleOAuth = useOAuth({ strategy: 'oauth_google' })
 
   async function onGoogleSignIn() {
-    console.log('Bateu aqui')
     try {
       setIsLoading(true)
 
